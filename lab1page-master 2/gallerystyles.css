@@ -1,0 +1,66 @@
+body{
+    background-color: whitesmoke;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    
+}
+
+.first_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.second_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#aboutPhoto{
+   padding-bottom: 10px;
+}
+
+.random{
+
+    background-color: dimgrey;
+  
+}
+
+.carousel-inner{
+    display: flex;
+    align-content: center;
+    width: 1rem;
+    margin-bottom: 30px;
+}
+.carousel-inner img {
+    margin: auto;
+    padding-left: 340px;
+  }
+  
+@media (max-width: 1100px){
+    .carousel{
+        display: none;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    img{
+        flex-shrink: inherit;
+    }
+}
+
+/* 
+.nice{
+    display: flex;
+    justify-content: space-around;
+
+} */
